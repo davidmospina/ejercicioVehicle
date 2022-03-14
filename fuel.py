@@ -1,8 +1,8 @@
 from engine import *
 class fuel:
-    def __init__(self):
+    def __init__(self,pEngine):
         self.level=1000
-        super()._init__()
+        self.engine= pEngine
 
     def update(self):
         self.level = self.level -abs(self.engine.get_speed())*0.01
