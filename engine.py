@@ -20,5 +20,5 @@ class engine:
 
     def __str__(self):
         status = "rpm:" + str(self.rpm) + " gear: " + str(self.gear) + " velocity: " + str(speed)
-        return 
+        return status
 
